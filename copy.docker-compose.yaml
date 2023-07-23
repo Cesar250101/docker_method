@@ -3,7 +3,7 @@ services:
   Odoo16:
     image: odoo:16.0
     depends_on:
-      - db
+      - Postgresql15
     ports:
       - "8089:8089"
     volumes:
